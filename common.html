@@ -1,0 +1,533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>common package &mdash; JPL Search Connector 0.01 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.01',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="JPL Search Connector 0.01 documentation" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">JPL Search Connector 0.01 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="common-package">
+<h1>common package<a class="headerlink" href="#common-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-common.connector">
+<span id="common-connector-module"></span><h2>common.connector module<a class="headerlink" href="#module-common.connector" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="common.connector.BaseConnector">
+<em class="property">class </em><code class="descclassname">common.connector.</code><code class="descname">BaseConnector</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="attribute">
+<dt id="common.connector.BaseConnector.credentials_dir">
+<code class="descname">credentials_dir</code><em class="property"> = '/usr/local/Cellar/python/2.7.12/Frameworks/Python.framework/Versions/2.7/bin/credentials'</em><a class="headerlink" href="#common.connector.BaseConnector.credentials_dir" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.deleted_documents">
+<code class="descname">deleted_documents</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.deleted_documents"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.deleted_documents" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.download_document">
+<code class="descname">download_document</code><span class="sig-paren">(</span><em>path</em>, <em>row</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.download_document"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.download_document" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.generate_toc">
+<code class="descname">generate_toc</code><span class="sig-paren">(</span><em>after_date</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.generate_toc"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.generate_toc" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.get_id">
+<code class="descname">get_id</code><span class="sig-paren">(</span><em>row</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.get_id"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.get_id" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.init_s3">
+<code class="descname">init_s3</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.init_s3"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.init_s3" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.init_worker">
+<code class="descname">init_worker</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.init_worker"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.init_worker" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.parse_document">
+<code class="descname">parse_document</code><span class="sig-paren">(</span><em>row</em>, <em>doc_meta</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.parse_document"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.parse_document" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.pull_all">
+<code class="descname">pull_all</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.pull_all"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.pull_all" title="Permalink to this definition">¶</a></dt>
+<dd><p>pulls toc, checkpoint, and afterdate files from S3
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.push_afterdate">
+<code class="descname">push_afterdate</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.push_afterdate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.push_afterdate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.push_checkpoint">
+<code class="descname">push_checkpoint</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.push_checkpoint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.push_checkpoint" title="Permalink to this definition">¶</a></dt>
+<dd><p>pushes only checkpoint file to S3
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.push_toc">
+<code class="descname">push_toc</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.push_toc"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.push_toc" title="Permalink to this definition">¶</a></dt>
+<dd><p>pushes toc, checkpoint, and afterdate files to S3
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.read_checkpoint_locally">
+<code class="descname">read_checkpoint_locally</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.read_checkpoint_locally"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.read_checkpoint_locally" title="Permalink to this definition">¶</a></dt>
+<dd><p>read a region object from checkpoint
+if region is equal to Regions(-1) then previous checkpoint
+was completed
+:return:
+region object from last checkpoint (i.e. last job stopped halfway through)
+or None if last job completed (i.e. generate a new TOC and continue with that)</p>
+<dl class="docutils">
+<dt>or Regions(-2) if critical abnormal failure (couldn&#8217;t read from checkpoint file,</dt>
+<dd>must restart current TOC), normally shouldn&#8217;t happen unless internet died halfway
+through sending checkpoint file over to S3, or if file got corrupted somehow</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.retrieve_toc_meta">
+<code class="descname">retrieve_toc_meta</code><span class="sig-paren">(</span><em>id</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.retrieve_toc_meta"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.retrieve_toc_meta" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="common.connector.BaseConnector.script_dir">
+<code class="descname">script_dir</code><em class="property"> = '/usr/local/Cellar/python/2.7.12/Frameworks/Python.framework/Versions/2.7/bin'</em><a class="headerlink" href="#common.connector.BaseConnector.script_dir" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="common.connector.BaseConnector.toc_dir">
+<code class="descname">toc_dir</code><em class="property"> = '/usr/local/Cellar/python/2.7.12/Frameworks/Python.framework/Versions/2.7/bin/toc'</em><a class="headerlink" href="#common.connector.BaseConnector.toc_dir" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.transform_document">
+<code class="descname">transform_document</code><span class="sig-paren">(</span><em>row</em>, <em>doc_parsed</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.transform_document"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.transform_document" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.validate_document">
+<code class="descname">validate_document</code><span class="sig-paren">(</span><em>row</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.validate_document"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.validate_document" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.write_checkpoint_locally">
+<code class="descname">write_checkpoint_locally</code><span class="sig-paren">(</span><em>regions</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.write_checkpoint_locally"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.write_checkpoint_locally" title="Permalink to this definition">¶</a></dt>
+<dd><p>persist the region object into the checkpoint file
+Should be used by the flush worker after successful ES bulk index
+Should be used when first creating a checkpoint file
+Does not push local checkpoint file to S3, for that you must use push_checkpoint
+:param regions:
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="common.connector.BaseConnector.write_finished_checkpoint_locally">
+<code class="descname">write_finished_checkpoint_locally</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#BaseConnector.write_finished_checkpoint_locally"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.BaseConnector.write_finished_checkpoint_locally" title="Permalink to this definition">¶</a></dt>
+<dd><p>writes a Regions(-1) object to the checkpoint file to mark job completion
+:param regions:
+:return:</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="common.connector.check_prop">
+<code class="descclassname">common.connector.</code><code class="descname">check_prop</code><span class="sig-paren">(</span><em>row</em>, <em>attr</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/connector.html#check_prop"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.connector.check_prop" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-common.db">
+<span id="common-db-module"></span><h2>common.db module<a class="headerlink" href="#module-common.db" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="common.db.DBConnector">
+<em class="property">class </em><code class="descclassname">common.db.</code><code class="descname">DBConnector</code><a class="reference internal" href="_modules/common/db.html#DBConnector"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.db.DBConnector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="common.db.DBConnector.execute">
+<code class="descname">execute</code><span class="sig-paren">(</span><em>sql</em>, <em>*parameters</em>, <em>**keywordParameters</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/db.html#DBConnector.execute"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.db.DBConnector.execute" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="common.db.MSSQL">
+<em class="property">class </em><code class="descclassname">common.db.</code><code class="descname">MSSQL</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/db.html#MSSQL"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.db.MSSQL" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#common.db.DBConnector" title="common.db.DBConnector"><code class="xref py py-class docutils literal"><span class="pre">common.db.DBConnector</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="common.db.Oracle">
+<em class="property">class </em><code class="descclassname">common.db.</code><code class="descname">Oracle</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/db.html#Oracle"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.db.Oracle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#common.db.DBConnector" title="common.db.DBConnector"><code class="xref py py-class docutils literal"><span class="pre">common.db.DBConnector</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="common.db.PostgreSQL">
+<em class="property">class </em><code class="descclassname">common.db.</code><code class="descname">PostgreSQL</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/db.html#PostgreSQL"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.db.PostgreSQL" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#common.db.DBConnector" title="common.db.DBConnector"><code class="xref py py-class docutils literal"><span class="pre">common.db.DBConnector</span></code></a></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="common.db.result_iter">
+<code class="descclassname">common.db.</code><code class="descname">result_iter</code><span class="sig-paren">(</span><em>cursor</em>, <em>header</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/db.html#result_iter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.db.result_iter" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-common.groupsync">
+<span id="common-groupsync-module"></span><h2>common.groupsync module<a class="headerlink" href="#module-common.groupsync" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="common.groupsync.BaseGroupSync">
+<em class="property">class </em><code class="descclassname">common.groupsync.</code><code class="descname">BaseGroupSync</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/groupsync.html#BaseGroupSync"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.groupsync.BaseGroupSync" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="attribute">
+<dt id="common.groupsync.BaseGroupSync.credentials_dir">
+<code class="descname">credentials_dir</code><em class="property"> = '/usr/local/Cellar/python/2.7.12/Frameworks/Python.framework/Versions/2.7/bin/credentials'</em><a class="headerlink" href="#common.groupsync.BaseGroupSync.credentials_dir" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.groupsync.BaseGroupSync.process_acls">
+<code class="descname">process_acls</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/groupsync.html#BaseGroupSync.process_acls"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.groupsync.BaseGroupSync.process_acls" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="common.groupsync.BaseGroupSync.script_dir">
+<code class="descname">script_dir</code><em class="property"> = '/usr/local/Cellar/python/2.7.12/Frameworks/Python.framework/Versions/2.7/bin'</em><a class="headerlink" href="#common.groupsync.BaseGroupSync.script_dir" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-common.nosql">
+<span id="common-nosql-module"></span><h2>common.nosql module<a class="headerlink" href="#module-common.nosql" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="common.nosql.MongoDB">
+<em class="property">class </em><code class="descclassname">common.nosql.</code><code class="descname">MongoDB</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/nosql.html#MongoDB"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.nosql.MongoDB" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">pymongo.mongo_replica_set_client.MongoReplicaSetClient</span></code></p>
+<dl class="method">
+<dt id="common.nosql.MongoDB.get_database">
+<code class="descname">get_database</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/nosql.html#MongoDB.get_database"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.nosql.MongoDB.get_database" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-common.regions">
+<span id="common-regions-module"></span><h2>common.regions module<a class="headerlink" href="#module-common.regions" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="common.regions.Region">
+<em class="property">class </em><code class="descclassname">common.regions.</code><code class="descname">Region</code><span class="sig-paren">(</span><em>left</em>, <em>right</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/regions.html#Region"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.regions.Region" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="common.regions.Region.compare">
+<code class="descname">compare</code><span class="sig-paren">(</span><em>num</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/regions.html#Region.compare"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.regions.Region.compare" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="common.regions.Regions">
+<em class="property">class </em><code class="descclassname">common.regions.</code><code class="descname">Regions</code><span class="sig-paren">(</span><em>num_elements</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/regions.html#Regions"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.regions.Regions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Data structure for keeping track of a number region
+Memory efficient means of marking integers seen or not seen within a number region starting at 0</p>
+<dl class="method">
+<dt id="common.regions.Regions.get_generator">
+<code class="descname">get_generator</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/regions.html#Regions.get_generator"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.regions.Regions.get_generator" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns a generator that iterates through all of the numbers that are within the regions of self.region_list
+guarantees to iterate inorder from smallest number to largest number
+:return:</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="common.regions.Regions.mark_num">
+<code class="descname">mark_num</code><span class="sig-paren">(</span><em>num</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/regions.html#Regions.mark_num"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.regions.Regions.mark_num" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>num</strong> &#8211; the number that you want to mark as having been &#8216;seen&#8217;</td>
+</tr>
+</tbody>
+</table>
+<p>performs binary search for num inside self.region_list
+then, will modify (split, delete, or decrement the boundaries of) the region that contains num
+:return:</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-common.tika_parse">
+<span id="common-tika-parse-module"></span><h2>common.tika_parse module<a class="headerlink" href="#module-common.tika_parse" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="common.tika_parse.parse_document">
+<code class="descclassname">common.tika_parse.</code><code class="descname">parse_document</code><span class="sig-paren">(</span><em>file</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/tika_parse.html#parse_document"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.tika_parse.parse_document" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-common.util">
+<span id="common-util-module"></span><h2>common.util module<a class="headerlink" href="#module-common.util" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="common.util.BearerAuth">
+<em class="property">class </em><code class="descclassname">common.util.</code><code class="descname">BearerAuth</code><span class="sig-paren">(</span><em>token</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#BearerAuth"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.BearerAuth" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">requests.auth.AuthBase</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="common.util.CustomEncoder">
+<em class="property">class </em><code class="descclassname">common.util.</code><code class="descname">CustomEncoder</code><span class="sig-paren">(</span><em>skipkeys=False</em>, <em>ensure_ascii=True</em>, <em>check_circular=True</em>, <em>allow_nan=True</em>, <em>sort_keys=False</em>, <em>indent=None</em>, <em>separators=None</em>, <em>encoding='utf-8'</em>, <em>default=None</em>, <em>use_decimal=True</em>, <em>namedtuple_as_object=True</em>, <em>tuple_as_array=True</em>, <em>bigint_as_string=False</em>, <em>item_sort_key=None</em>, <em>for_json=False</em>, <em>ignore_nan=False</em>, <em>int_as_string_bitcount=None</em>, <em>iterable_as_array=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#CustomEncoder"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.CustomEncoder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">simplejson.encoder.JSONEncoder</span></code></p>
+<dl class="method">
+<dt id="common.util.CustomEncoder.default">
+<code class="descname">default</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#CustomEncoder.default"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.CustomEncoder.default" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="common.util.MLStripper">
+<em class="property">class </em><code class="descclassname">common.util.</code><code class="descname">MLStripper</code><a class="reference internal" href="_modules/common/util.html#MLStripper"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.MLStripper" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">HTMLParser.HTMLParser</span></code></p>
+<dl class="method">
+<dt id="common.util.MLStripper.get_data">
+<code class="descname">get_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#MLStripper.get_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.MLStripper.get_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="common.util.MLStripper.handle_data">
+<code class="descname">handle_data</code><span class="sig-paren">(</span><em>d</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#MLStripper.handle_data"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.MLStripper.handle_data" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="common.util.ThumbnailQueuer">
+<em class="property">class </em><code class="descclassname">common.util.</code><code class="descname">ThumbnailQueuer</code><a class="reference internal" href="_modules/common/util.html#ThumbnailQueuer"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.ThumbnailQueuer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="common.util.ThumbnailQueuer.send_to_thumbnail">
+<code class="descname">send_to_thumbnail</code><span class="sig-paren">(</span><em>file</em>, <em>url</em>, <em>mime_type</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#ThumbnailQueuer.send_to_thumbnail"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.ThumbnailQueuer.send_to_thumbnail" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="common.util.append_camel">
+<code class="descclassname">common.util.</code><code class="descname">append_camel</code><span class="sig-paren">(</span><em>str1</em>, <em>str2</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#append_camel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.append_camel" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.camelize_dict">
+<code class="descclassname">common.util.</code><code class="descname">camelize_dict</code><span class="sig-paren">(</span><em>row</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#camelize_dict"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.camelize_dict" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.check_file_extension_indexable">
+<code class="descclassname">common.util.</code><code class="descname">check_file_extension_indexable</code><span class="sig-paren">(</span><em>file_extension</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#check_file_extension_indexable"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.check_file_extension_indexable" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.check_file_indexable">
+<code class="descclassname">common.util.</code><code class="descname">check_file_indexable</code><span class="sig-paren">(</span><em>file_path</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#check_file_indexable"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.check_file_indexable" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.check_file_mime_type_indexable">
+<code class="descclassname">common.util.</code><code class="descname">check_file_mime_type_indexable</code><span class="sig-paren">(</span><em>mime_type</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#check_file_mime_type_indexable"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.check_file_mime_type_indexable" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.clean_whitespace">
+<code class="descclassname">common.util.</code><code class="descname">clean_whitespace</code><span class="sig-paren">(</span><em>text</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#clean_whitespace"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.clean_whitespace" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.content_check">
+<code class="descclassname">common.util.</code><code class="descname">content_check</code><span class="sig-paren">(</span><em>doc</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#content_check"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.content_check" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.de_xml">
+<code class="descclassname">common.util.</code><code class="descname">de_xml</code><span class="sig-paren">(</span><em>ms_json</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#de_xml"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.de_xml" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.del_key">
+<code class="descclassname">common.util.</code><code class="descname">del_key</code><span class="sig-paren">(</span><em>row</em>, <em>key</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#del_key"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.del_key" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.hash_file">
+<code class="descclassname">common.util.</code><code class="descname">hash_file</code><span class="sig-paren">(</span><em>file</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#hash_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.hash_file" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.hash_text">
+<code class="descclassname">common.util.</code><code class="descname">hash_text</code><span class="sig-paren">(</span><em>text</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#hash_text"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.hash_text" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.is_number">
+<code class="descclassname">common.util.</code><code class="descname">is_number</code><span class="sig-paren">(</span><em>s</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#is_number"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.is_number" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.print_status">
+<code class="descclassname">common.util.</code><code class="descname">print_status</code><span class="sig-paren">(</span><em>str</em>, <em>logger</em>, <em>last_print</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#print_status"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.print_status" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.remove_file">
+<code class="descclassname">common.util.</code><code class="descname">remove_file</code><span class="sig-paren">(</span><em>file</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#remove_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.remove_file" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.split_key">
+<code class="descclassname">common.util.</code><code class="descname">split_key</code><span class="sig-paren">(</span><em>row</em>, <em>key</em>, <em>delimiter='</em>, <em>'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#split_key"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.split_key" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.split_keys">
+<code class="descclassname">common.util.</code><code class="descname">split_keys</code><span class="sig-paren">(</span><em>row</em>, <em>keys</em>, <em>delimiter='</em>, <em>'</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#split_keys"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.split_keys" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.strip_dict">
+<code class="descclassname">common.util.</code><code class="descname">strip_dict</code><span class="sig-paren">(</span><em>dict</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#strip_dict"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.strip_dict" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.strip_html">
+<code class="descclassname">common.util.</code><code class="descname">strip_html</code><span class="sig-paren">(</span><em>str</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#strip_html"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.strip_html" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.swap_key">
+<code class="descclassname">common.util.</code><code class="descname">swap_key</code><span class="sig-paren">(</span><em>row</em>, <em>old_key</em>, <em>new_key</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#swap_key"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.swap_key" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="common.util.to_camel">
+<code class="descclassname">common.util.</code><code class="descname">to_camel</code><span class="sig-paren">(</span><em>str</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/common/util.html#to_camel"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#common.util.to_camel" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-common">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-common" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">common package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-common.connector">common.connector module</a></li>
+<li><a class="reference internal" href="#module-common.db">common.db module</a></li>
+<li><a class="reference internal" href="#module-common.groupsync">common.groupsync module</a></li>
+<li><a class="reference internal" href="#module-common.nosql">common.nosql module</a></li>
+<li><a class="reference internal" href="#module-common.regions">common.regions module</a></li>
+<li><a class="reference internal" href="#module-common.tika_parse">common.tika_parse module</a></li>
+<li><a class="reference internal" href="#module-common.util">common.util module</a></li>
+<li><a class="reference internal" href="#module-common">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/common.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">JPL Search Connector 0.01 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Phu.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.5.
+    </div>
+  </body>
+</html>

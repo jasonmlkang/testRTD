@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>groupsync package &mdash; JPL Search Connector 0.01 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.01',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="JPL Search Connector 0.01 documentation" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">JPL Search Connector 0.01 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="groupsync-package">
+<h1>groupsync package<a class="headerlink" href="#groupsync-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-groupsync.docushare">
+<span id="groupsync-docushare-module"></span><h2>groupsync.docushare module<a class="headerlink" href="#module-groupsync.docushare" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="groupsync.docushare.DocuShare">
+<em class="property">class </em><code class="descclassname">groupsync.docushare.</code><code class="descname">DocuShare</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/groupsync/docushare.html#DocuShare"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#groupsync.docushare.DocuShare" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="common.html#common.groupsync.BaseGroupSync" title="common.groupsync.BaseGroupSync"><code class="xref py py-class docutils literal"><span class="pre">common.groupsync.BaseGroupSync</span></code></a></p>
+<dl class="method">
+<dt id="groupsync.docushare.DocuShare.process_acls">
+<code class="descname">process_acls</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/groupsync/docushare.html#DocuShare.process_acls"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#groupsync.docushare.DocuShare.process_acls" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-groupsync.jpldap">
+<span id="groupsync-jpldap-module"></span><h2>groupsync.jpldap module<a class="headerlink" href="#module-groupsync.jpldap" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="groupsync.jpldap.JPLDAP">
+<em class="property">class </em><code class="descclassname">groupsync.jpldap.</code><code class="descname">JPLDAP</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/groupsync/jpldap.html#JPLDAP"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#groupsync.jpldap.JPLDAP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="common.html#common.groupsync.BaseGroupSync" title="common.groupsync.BaseGroupSync"><code class="xref py py-class docutils literal"><span class="pre">common.groupsync.BaseGroupSync</span></code></a></p>
+<dl class="method">
+<dt id="groupsync.jpldap.JPLDAP.ldap_search">
+<code class="descname">ldap_search</code><span class="sig-paren">(</span><em>base_dn</em>, <em>search_scope</em>, <em>search_filter</em>, <em>retrieve_attributes</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/groupsync/jpldap.html#JPLDAP.ldap_search"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#groupsync.jpldap.JPLDAP.ldap_search" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="groupsync.jpldap.JPLDAP.process_acls">
+<code class="descname">process_acls</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/groupsync/jpldap.html#JPLDAP.process_acls"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#groupsync.jpldap.JPLDAP.process_acls" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-groupsync.pdms">
+<span id="groupsync-pdms-module"></span><h2>groupsync.pdms module<a class="headerlink" href="#module-groupsync.pdms" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="groupsync.pdms.PDMS">
+<em class="property">class </em><code class="descclassname">groupsync.pdms.</code><code class="descname">PDMS</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/groupsync/pdms.html#PDMS"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#groupsync.pdms.PDMS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="common.html#common.groupsync.BaseGroupSync" title="common.groupsync.BaseGroupSync"><code class="xref py py-class docutils literal"><span class="pre">common.groupsync.BaseGroupSync</span></code></a></p>
+<dl class="method">
+<dt id="groupsync.pdms.PDMS.process_acls">
+<code class="descname">process_acls</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/groupsync/pdms.html#PDMS.process_acls"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#groupsync.pdms.PDMS.process_acls" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-groupsync.prs">
+<span id="groupsync-prs-module"></span><h2>groupsync.prs module<a class="headerlink" href="#module-groupsync.prs" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="groupsync.prs.PRS">
+<em class="property">class </em><code class="descclassname">groupsync.prs.</code><code class="descname">PRS</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/groupsync/prs.html#PRS"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#groupsync.prs.PRS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="common.html#common.groupsync.BaseGroupSync" title="common.groupsync.BaseGroupSync"><code class="xref py py-class docutils literal"><span class="pre">common.groupsync.BaseGroupSync</span></code></a></p>
+<dl class="method">
+<dt id="groupsync.prs.PRS.process_acls">
+<code class="descname">process_acls</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/groupsync/prs.html#PRS.process_acls"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#groupsync.prs.PRS.process_acls" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-groupsync">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-groupsync" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">groupsync package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-groupsync.docushare">groupsync.docushare module</a></li>
+<li><a class="reference internal" href="#module-groupsync.jpldap">groupsync.jpldap module</a></li>
+<li><a class="reference internal" href="#module-groupsync.pdms">groupsync.pdms module</a></li>
+<li><a class="reference internal" href="#module-groupsync.prs">groupsync.prs module</a></li>
+<li><a class="reference internal" href="#module-groupsync">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/groupsync.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">JPL Search Connector 0.01 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2016, Phu.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.5.
+    </div>
+  </body>
+</html>
